@@ -18,3 +18,16 @@ Et affiche :
 - La valeur de la fonction objectif `z = c1·x1 + c2·x2`
 
 ## 📁 Structure
+
+```
+.
+├── app.py                # Interface Streamlit
+├── train_ann.py          # Entraînement de modèle
+├── model_ann.py          # Modèle ANN
+├── models/
+│   ├── ann_model.pth     # Modèle entraîné
+│   └── scaler.pkl        # Scaler sauvegardé
+├── data/
+│   └── LP_modele.csv     # Données d'entraînement 
+├── requirements.txt      # Dépendances Python
+```
